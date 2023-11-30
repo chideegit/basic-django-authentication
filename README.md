@@ -34,26 +34,32 @@ Here are what makes the project tick! Please go through the features to see why 
 
 Setting up and installing this project is quite straightforward and easy. Below are detailed step on how to get this web app up and running. 
 
-1. Install, create and activate a virtual environment. 
+1. Install a virtual environment. 
 ```bash
 pip intall virtualenv
+
+```
+
+2. Create and activate a virtual environment 
+```bash
 virtualenv generic_name
+
 cd generic_name && Scripts\activate
 ```
 
-2. Clone the project's github repo and cd into project
+3. Clone the project's github repo and cd into project
 ```bash
 git clone https://github.com/chideegit/basic-django-authentication.git
 
 cd basic-django-authentication
 ```
 
-3. Install all the dependencies contained in the requirements.txt file. 
+4. Install all the dependencies contained in the [requirements.txt](./requirements.txt) file. 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Make migrations, migrate and  then run local server 
+5. Make migrations, migrate and  then run local server 
 ```bash
 python manage.py makemigrations
 python manage.py migrate
