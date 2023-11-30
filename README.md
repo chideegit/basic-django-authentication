@@ -37,8 +37,8 @@ Setting up and installing this project is quite straightforward and easy. Below 
 1. Install, create and activate a virtual environment. 
 ```bash
 pip intall virtualenv
-virtualenv <name>
-cd <name> && Scripts\activate
+virtualenv generic_name
+cd generic_name && Scripts\activate
 ```
 
 2. Clone the project's github repo and cd into project
